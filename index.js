@@ -14,9 +14,6 @@ usarExpress.use( cors() );
 usarExpress.use( express.json() );
 usarExpress.use( express.urlencoded( { extended:true }  ))
 
-
-
-
 //---creamos servidor----//
   usarExpress.listen(3000, (req, resp) => {
 
@@ -24,8 +21,6 @@ usarExpress.use( express.urlencoded( { extended:true }  ))
     //console.log("Conectar al servidor por render");
 
   });
-
-
 
 
   //---importamos rutas---//
